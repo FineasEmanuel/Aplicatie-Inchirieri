@@ -70,7 +70,7 @@
             }
         }
 
-        // 🔹 AFISARE
+        //  AFISARE
         static void AfisareMasini(List<Masina> masini)
         {
             Console.WriteLine("\n--- Lista masini ---");
@@ -92,7 +92,7 @@
             }
         }
 
-        // 🔹 INCHIRIERE
+        //  INCHIRIERE
         static void InchiriazaMasina(List<Masina> masini, List<Client> clienti, List<Inchiriere> inchirieri)
         {
             AfisareMasiniDisponibile(masini);
@@ -186,7 +186,7 @@
             Console.WriteLine($"Total: {total} lei");
         }
 
-        // 🔹 DATE INITIALE
+        //  DATE INITIALE
         static List<Masina> InitializareMasini()
         {
             return new List<Masina>
